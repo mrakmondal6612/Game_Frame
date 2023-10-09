@@ -3,8 +3,8 @@ body{
 
 }
 .btn{
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border: 0.5rem solid black;
     border-radius: 25%;
     margin: 1rem;
@@ -17,19 +17,56 @@ body{
 
 .red{
     background-color: rgba(218, 59, 59, 0.901);
+    box-shadow: 1px 5px 10px rgb(224, 229, 231);
 }
 .yellow{
     background-color: rgba(243, 184, 5, 0.846);
+    box-shadow: 1px 5px 10px rgb(224, 229, 231);
 }
 .green{
     background-color: rgba(5, 133, 93, 0.815);
+    box-shadow: 1px 5px 10px rgb(224, 229, 231);
 }
 .purple{
     background-color: rgb(50, 149, 206);
+    box-shadow: 1px 5px 10px rgb(224, 229, 231);
 }
+.red:hover{
+    box-shadow: 1px 5px 10px rgba(218, 59, 59, 0.901);
+}
+.yellow:hover{
+    box-shadow: 1px 5px 10px rgba(243, 184, 5, 0.846);
+}
+.green:hover{
+    box-shadow: 1px 5px 10px rgba(5, 133, 93, 0.815);
+}
+.purple:hover{
+    box-shadow: 1px 5px 10px rgb(50, 149, 206);
+}
+
 .flash{
     background-color: white;
 }
 .userFlash{
     background-color: rgb(0, 0, 0);
 }
+.buttn{
+    height: 30px;
+    width: 50px;
+    border-radius: 15%;
+    text-align: center;
+    
+    background-color: rgb(46, 73, 226);
+    color: rgb(251, 250, 255);
+    /* display: flex;
+    justify-content: center; */
+    display: inline-block;
+    box-shadow: 0 2px 3px rgb(90, 79, 2);
+    transition: 0.3s;
+}
+.buttn:hover{
+    box-shadow: 1px 5px 10px rgb(13, 149, 222);
+    background-color: rgb(3, 232, 244);
+    color: rgb(6, 50, 71);
+}
+
