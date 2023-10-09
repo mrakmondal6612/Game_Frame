@@ -7,7 +7,9 @@ let level = 0;
 
 let h2 = document.querySelector('h2');
 
-document.addEventListener("keypress", function(){
+let stBtn = document.querySelector(".buttn");
+
+stBtn.addEventListener("click", function(){
     if(started == false){
         console.log("Game is Started");
         // h2.innerText = "Game Started";
@@ -77,7 +79,7 @@ function checkAns(idx){
             else return i;
         });
         console.log("All Sq= ", allSq, "max Score = ",maxSq);
-        h2.innerHTML = `Game Over !<br> <b>Your score was : ${level}<br>Maximum score was : ${maxSq} </b> <br> Press any key to start.` ;
+        h2.innerHTML = `Game Over !<br> <b>Your score was : ${level}<br>Maximum score was : ${maxSq} </b> <br> Press key to start.` ;
         let body = document.querySelector('body');
         body.style.backgroundColor = "red";
         setTimeout(function(){
@@ -93,4 +95,6 @@ function reset(){
     gameSq = [];
     started = false;
 }
+
+
 
