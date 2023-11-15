@@ -4,7 +4,7 @@ body{
 }
 .btn{
     height: 150px;
-    width: 150px;
+    width: 130px;
     border: 0.5rem solid black;
     border-radius: 25%;
     margin: 1rem;
@@ -52,7 +52,7 @@ body{
 }
 .buttn{
     height: 30px;
-    width: 40px;
+    width: 50px;
     border-radius: 15%;
     text-align: center;
     
@@ -69,4 +69,5 @@ body{
     background-color: rgb(3, 232, 244);
     color: rgb(6, 50, 71);
 }
+
 
